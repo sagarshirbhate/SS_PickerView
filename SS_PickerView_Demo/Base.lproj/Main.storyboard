@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="TextField With PickerView" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qaL-D0-wss">
+                                <rect key="frame" x="30" y="285" width="540" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="TIw-tL-GTS"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click On TextField" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sv7-gf-KLM">
+                                <rect key="frame" x="30" y="256" width="540" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qaL-D0-wss" firstAttribute="top" secondItem="sv7-gf-KLM" secondAttribute="bottom" constant="8" id="FFV-qk-QyF"/>
+                            <constraint firstItem="qaL-D0-wss" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OSa-X7-dOk"/>
+                            <constraint firstItem="qaL-D0-wss" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="SrC-UZ-oG4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sv7-gf-KLM" secondAttribute="trailing" constant="10" id="WLQ-ZU-u5Y"/>
+                            <constraint firstItem="sv7-gf-KLM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Xxi-4D-MVI"/>
+                            <constraint firstItem="qaL-D0-wss" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="djw-K9-INA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qaL-D0-wss" secondAttribute="trailing" constant="10" id="lxg-Wc-AcS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="qaL-D0-wss" id="Yku-rf-DqB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="291"/>
+        </scene>
+    </scenes>
+</document>
