@@ -14,6 +14,7 @@
 		AAD1519D1CCA45C100F7F507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD1519C1CCA45C100F7F507 /* Assets.xcassets */; };
 		AAD151A01CCA45C100F7F507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD1519E1CCA45C100F7F507 /* LaunchScreen.storyboard */; };
 		AAD151AA1CCA469F00F7F507 /* SS_PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD151A91CCA469F00F7F507 /* SS_PickerView.m */; };
+		AAD151AC1CCA528A00F7F507 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AAD151AB1CCA528A00F7F507 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AAD151A11CCA45C100F7F507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAD151A81CCA469F00F7F507 /* SS_PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_PickerView.h; sourceTree = "<group>"; };
 		AAD151A91CCA469F00F7F507 /* SS_PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_PickerView.m; sourceTree = "<group>"; };
+		AAD151AB1CCA528A00F7F507 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		AAD1518F1CCA45C000F7F507 /* SS_PickerView_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				AAD151AB1CCA528A00F7F507 /* README.md */,
 				AAD151A71CCA469F00F7F507 /* SS_Picker */,
 				AAD151931CCA45C000F7F507 /* AppDelegate.h */,
 				AAD151941CCA45C000F7F507 /* AppDelegate.m */,
@@ -164,6 +167,7 @@
 			files = (
 				AAD151AA1CCA469F00F7F507 /* SS_PickerView.m in Sources */,
 				AAD151981CCA45C000F7F507 /* ViewController.m in Sources */,
+				AAD151AC1CCA528A00F7F507 /* README.md in Sources */,
 				AAD151951CCA45C000F7F507 /* AppDelegate.m in Sources */,
 				AAD151921CCA45C000F7F507 /* main.m in Sources */,
 			);
@@ -314,6 +318,7 @@
 				AAD151A61CCA45C100F7F507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
